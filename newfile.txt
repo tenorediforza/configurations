@@ -1,0 +1,13 @@
+Applications
+Calibre Library
+Desktop
+Documents
+Downloads
+Music
+perl5
+Pictures
+Public
+snap
+Templates
+Videos
+VirtualBox VMs
