@@ -1,0 +1,89 @@
+[custom0]
+binding='<Super>g'
+command='google-chrome --incognito http://www.duckduckgo.com'
+name='Google_Chrome_incognito'
+
+[custom1]
+binding='<Super>f'
+command='firefox --private-window https://duckduckgo.com/'
+name='Firefox_Mozilla_private'
+
+[custom5]
+binding='<Control><Alt>6'
+command="gnome-terminal -e 'bash -c \"sleep 0.5 && xset dpms force off\"'"
+name='screenOFF'
+
+#[customXY]
+#binding='<Super>f'
+#command=''
+#name=''
+
+#[customXY]
+#binding='<Super>f'
+#command=''
+#name=''
+
+#[customXY]
+#binding='<Super>f'
+#command=''
+#name=''
+
+[custom11]
+binding='<Shift><Alt>t'
+command='gnome-terminal --full-screen'
+name='Gnome_Terminal'
+
+[custom13]
+binding='<Control><Alt>a'
+command='audacious'
+name='audacious'
+
+[custom15]
+binding='<Alt><Super>f'
+command='firefox'
+name='Mozilla FIrefox Normal'
+
+[custom17]
+binding='<Shift><Control><Alt>f'
+command='killall firefox'
+name='Mozilla_kill'
+
+[custom2]
+binding='<Control><Alt>y'
+command='firefox --private-window https://www.youtube.com'
+name='Youtube'
+
+[custom26]
+binding='<Shift><Control>t'
+command='gnome-terminal --full-screen -- bash -c "tmux; exec bash"'
+name='Tmux (fullscreen)'
+
+[custom29]
+binding='<Control><Alt>KP_Divide'
+command='gnome-terminal --geometry 170X60+600+60'
+name='terminal_center_big'
+
+[custom3]
+binding='<Super>e'
+command='gnome-text-editor'
+name='Gnome text editor'
+
+[custom32]
+binding='<Super>n'
+command='nautilus'
+name='Nautilus'
+
+[custom37]
+binding='<Super>v'
+command="gnome-terminal -- sh -c 'vim /tmp/new_file.txt'"
+name='Open_Vim'
+
+[custom38]
+binding='<Super>c'
+command='caffeine-indicator'
+name='Caffeine App'
+
+[custom4]
+binding='<Super>r'
+command='firefox "https://www.wsmr.org/" "https://theclassicalstation.org/player/" "https://www.radio.net/" "https://somafm.com/listen/listeners.html" "https://wguc.org/" "https://www.radioswissclassic.ch/en" '
+name='radio stations'
