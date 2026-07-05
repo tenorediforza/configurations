@@ -29,7 +29,7 @@ alias broken="sudo apt --fix-broken install"
 alias kept="sudo apt install --only-upgrade"		#"The following upgrades have been deferred due to phasing" or "...kept back:"
 alias gpgkeys="ls -lh /etc/apt/sources.list.d"		#Show sources list added manually
 alias remove="sudo apt-get remove --purge"
-alias updates="bash $HOME/Documents/test/updates"
+alias updates="bash $HOME/Documents/scripts/updates"
 
 #Killing
 alias pdfkill='kill $(pgrep evince) && kill $(pgrep xpdf)'
