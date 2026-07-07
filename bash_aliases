@@ -14,6 +14,7 @@ PS1="\[\033[1;36m\]\u\[\033[1;31m\]@\[\033[1;32m\]\h:\[\033[1;35m\]\w\[\033[1;31
 alias add="vim $HOME/.bash_aliases"
 alias cdbin='cd /usr/local/bin && ls -lh'
 alias cdtmp='mkdir -p /tmp/test && cd /tmp/test/'
+alias cdtest="cd $HOME/Documents/scripts"
 alias tmuxconf='vim $HOME/.tmux.conf'
 alias tester="mkdir -p /tmp/test/ && cd /tmp/test/"
 alias copydate="date | xclip -selection clipboard"
